@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LingoBango turns Counter-Strike communication into five-minute daily drills." />
+    <title>LingoBango — Speak fluent Counter-Strike</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="LingoBango home">
+        <span class="brand-mark"><i></i><i></i><i></i></span>
+        <span>lingo<span class="brand-accent">bango</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#method">Method</a>
+        <a href="#maps">Trash talk</a>
+        <a href="#progress">Progress</a>
+      </nav>
+      <a class="button button-small button-ghost" href="#progress">Get in early <span>↗</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse"></span> Comms training for the next round</p>
+          <h1>Talk less.<br /><em>Say more.</em></h1>
+          <p class="hero-text">LingoBango turns Counter-Strike callouts, utility, and team language into five-minute drills that actually stick.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#progress">Start training <span>→</span></a>
+            <a class="text-link" href="#method">See the method <span>↓</span></a>
+          </div>
+          <div class="hero-note"><span class="avatar-stack"><b>J</b><b>M</b><b>R</b></span><span>Built for solo queues<br /><strong>and five-stacks.</strong></span></div>
+        </div>
+        <div class="hero-visual" aria-label="LingoBango daily drill preview">
+          <div class="visual-label label-top">DRILL 04 / 07 <span>◉ LIVE</span></div>
+          <div class="map-lines map-lines-a"></div>
+          <div class="map-lines map-lines-b"></div>
+          <div class="coordinates">A 04 &nbsp; / &nbsp; 37° 46' 12" N</div>
+          <div class="drill-card">
+            <div class="drill-top"><span class="tag">MIRAGE / CALLOUTS</span><span class="xp">+20 XP</span></div>
+            <div class="drill-progress"><span></span></div>
+            <p class="question-label">ROUND CONTEXT</p>
+            <h2>“Two close ramp.<br />One tagged 40.”</h2>
+            <p class="question-sub">Where should your teammate expect contact?</p>
+            <div class="answers">
+              <button class="answer" data-correct="false"><span>A</span> Palace</button>
+              <button class="answer" data-correct="true"><span>B</span> A Ramp</button>
+              <button class="answer" data-correct="false"><span>C</span> Ticket</button>
+            </div>
+            <p class="feedback" aria-live="polite"></p>
+          </div>
+          <div class="streak-card"><span class="flame">✦</span><span><strong>12 day streak</strong><small>Keep the comms clean.</small></span></div>
+          <div class="floating-note">AIM<br /><span>FOR CLARITY</span></div>
+        </div>
+      </section>
+
+      <section class="signal-strip section-wrap" aria-label="Product highlights">
+        <p>ONE SMALL DRILL<br /><strong>ONE BIG DIFFERENCE</strong></p>
+        <span class="signal-line"></span>
+        <p><b>05:00</b><br />Daily sessions</p>
+        <p><b>∞</b><br />Better comms</p>
+        <p><b>GG</b><br />More round wins</p>
+      </section>
+
+      <section class="method section-wrap" id="method">
+        <div class="section-heading"><p class="eyebrow">01 / The method</p><h2>Train the words<br /><span>behind the wins.</span></h2></div>
+        <div class="method-grid">
+          <article class="method-card card-dark"><span class="card-number">01</span><h3>Voice translation</h3><p>Turn team comms into clear, useful language in the heat of the round.</p><a href="#maps">Translate now <span>↗</span></a></article>
+          <article class="method-card card-lime"><span class="card-number">02</span><h3>Callout</h3><p>Learn the words and locations your team needs to act without hesitation.</p><a href="#maps">Learn callouts <span>↗</span></a></article>
+          <article class="method-card card-tan"><span class="card-number">03</span><h3>Minigame</h3><p>Keep your instincts sharp with quick challenges built for repeat play.</p><a href="#progress">Play a round <span>↗</span></a></article>
+        </div>
+      </section>
+
+      <section class="map-lab section-wrap" id="maps">
+        <div class="section-heading"><p class="eyebrow">02 / Trash talk generator</p><h2>Angry?! Say it in<br /><span>their language.</span></h2><p class="generator-subtitle">Generate a random trashtalk based on their language.</p></div>
+        <div class="map-content">
+          <div class="map-list">
+            <button class="map-tab active"><span>01</span><strong>English</strong><small>Selected language</small><i>→</i></button>
+            <button class="map-tab"><span>02</span><strong>Chinese</strong><small>Select language</small><i>→</i></button>
+            <button class="map-tab"><span>03</span><strong>Russian</strong><small>Select language</small><i>→</i></button>
+            <button class="map-tab"><span>04</span><strong>Japanese</strong><small>Select language</small><i>→</i></button>
+            <button class="map-tab"><span>05</span><strong>Thai</strong><small>Select language</small><i>→</i></button>
+            <button class="map-tab"><span>06</span><strong>Vietnamese</strong><small>Select language</small><i>→</i></button>
+            <button class="map-tab"><span>07</span><strong>Indonesian</strong><small>Select language</small><i>→</i></button>
+            <button class="map-tab"><span>08</span><strong>Filipino</strong><small>Select language</small><i>→</i></button>
+            <div class="generator-control"><p class="generator-result">Choose a language to get started.</p><button class="generate-button" type="button">Generate random trash talk <span>→</span></button></div>
+          </div>
+          <div class="gif-panel"><img src="ragetense.gif" alt="Gamer reacting intensely during a match" /><span>WHEN THE TRASH TALK<br /><strong>GETS PERSONAL.</strong></span></div>
+        </div>
+      </section>
+
+      <section class="progress section-wrap" id="progress">
+        <div class="progress-copy"><p class="eyebrow">03 / Build your streak</p><h2>Daily quiz.<br /><span>Keep it going.</span></h2><p>Answer a few fast questions every day, keep your streak alive, and turn better game knowledge into better rounds.</p><a class="button button-primary" href="#top">Take today’s quiz <span>→</span></a></div>
+      </section>
+
+    </main>
+    <footer class="site-footer section-wrap"><a class="brand" href="#top"><span class="brand-mark"><i></i><i></i><i></i></span><span>lingo<span class="brand-accent">bango</span></span></a><p>Train your comms. Change the round.</p><span>© 2026 LingoBango / Unofficial fan project</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
