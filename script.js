@@ -47,13 +47,3 @@ menuButton.addEventListener('click', () => {
   menuButton.setAttribute('aria-expanded', String(!open));
   navigation.classList.toggle('mobile-open', !open);
 });
-
-const splash = document.querySelector('.splash');
-
-if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  splash.remove();
-} else {
-  requestAnimationFrame(() => splash.classList.add('is-playing'));
-  window.setTimeout(() => splash.classList.add('is-exiting'), 1900);
-  window.setTimeout(() => splash.remove(), 2800);
-}
